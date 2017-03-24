@@ -1,7 +1,7 @@
 # NLP_ps1
 CS224n (2017) assignment1 coding problems
 
-Much of this code is adapted from anothers' solutions to the problem set from two or three years ago.  (I'll upload my original version when I have time to annotate it.)  I had hoped that the instant code would be more tractable to parallelizing, but that achievement remains elusive. 
+Some of this code is adapted from anothers' solutions to the problem set from two or three years ago.  (I'll upload my original version when I have time to annotate it.)  I had hoped that the instant code would be more tractable to parallelizing, but that achievement remains elusive. 
 
 Notes:
 
