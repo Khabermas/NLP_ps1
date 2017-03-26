@@ -65,9 +65,11 @@ def getRegularizationValues():
     values = None   # Assign a list of floats in the block below
     ### YOUR CODE HERE
     values = np.logspace(-6,0.1,21)
-    values = np.hstack([0, values])
+    #values = np.logspace(-6,2.0,25)
+    # The sentiment models are rather insensitive to regularization values.
+    # The second set displays a falloff of accuracy with as values exceed 1.
     ### END YOUR CODE
-    return values
+    return sorted(values)
 
 
 def chooseBestModel(results):
