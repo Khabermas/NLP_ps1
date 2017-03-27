@@ -247,6 +247,8 @@ def main(args):
                               "q4_dev_conf.png")
         outputPredictions(devset, devFeatures, devLabels, bestResult["clf"],
                           "q4_dev_pred.txt")
+    elif args.yourvectors:
+        plotRegVsAccuracy(regValues, results, "q4_reg_v_acc_yv.png")
 
 
 if __name__ == "__main__":
